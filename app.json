@@ -1,0 +1,88 @@
+{
+    "name": "WilliamButcherBot",
+    "description": "Telegram Group Management Bot Written In Python Using Pyrogram.",
+    "repository": "https://github.com/anunicn47/Ayiin",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "youtube",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "repository": "https://github.com/anunicn47/Ayiin",
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        },
+        "API_ID": {
+            "description": "API_ID of your Telegram Account my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "API_HASH of your Telegram Account my.telegram.org/apps",
+            "required": true
+        },
+        "SESSION_STRING": {
+            "description": "Need for Userbot Module So u can execute .sh & .l cmd",
+            "required": true
+        },
+        "EVENT_LOGS": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        }, 
+       "URL": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        },
+      " DB_URI": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        },
+       "BOT_USERNAME": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        },
+      "STRING_SESSION": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        },
+      "HEROKU_APP_NAME": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        },
+      "HEROKU_API_KEY": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        },
+      "BOT_NAME": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        },
+      "HELP_IMG": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        },
+      "BOT_TOKEN": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather",
+            "required": true
+        },
+        "USERBOT_PREFIX": {
+            "description": "Userbot command prefix, Leave it empty if you don't know what that is.",
+            "required": false
+        },
+        "RSS_DELAY": {
+            "description": "Delay in which RSS will send updates in chat",
+            "value": "300",
+            "required": true
+        },
+        "PM_PERMIT":{
+            "description": "Pm permit, fill 1 to enable or 0 to disable it.",
+            "value": "1",
+            "required": true
+        }
+    }
+}
